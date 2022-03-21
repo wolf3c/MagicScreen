@@ -1,11 +1,11 @@
 // This section sets up some basic app metadata, the entire section is optional.
 App.info({
-    id: 'com.example.matt.uber',
-    name: 'über',
+    id: 'com.meteorapp.magicscreen',
+    name: 'Magic Screen',
     description: 'Get über power in one button click',
     author: 'Matt Development Group',
     email: 'contact@example.com',
-    website: 'http://example.com'
+    website: 'magic-screen.meteorapp.com'
 });
 
 // Set up resources such as icons and launch screens.
@@ -67,6 +67,6 @@ App.setPreference('Orientation', 'all', 'ios');
 // generated config.xml. 'Universal Links' is shown as an example here.
 App.appendToConfig(`
     <universal-links>
-      <host name="localhost:3000" />
+      <host name="magic-screen.meteorapp.com" />
     </universal-links>
   `);
